@@ -3,7 +3,8 @@ title: Utiliser un tunnel DNS pour bypass les portails captifs
 updated: 2023-03-15 22:24:38Z
 created: 2023-03-14 21:06:06Z
 categories: [HACKSPERIENCE]
-img_path: /assets/img/
+tags: [dns, redteam]
+img_path: /assets/img/2023-01-05-Utiliser un tunnel DNS pour bypass les portails captifs
 ---
 
 Test d'une technique pour bypass les portails captifs des hôtels, résidences étudiantes (WiF***k), tel que :
