@@ -3,6 +3,7 @@ layout: post
 title: Cartographier et analyser la sécurité des dépendances logicielles en continu
   avec des outils open source
 date: 2023-10-16 14:20 +0200
+categories: [DEVSECOPS]
 tags: [devsecops, owasp, trivy, gitlab, dependency-track]
 img_path: /assets/img/2023-10-16-cartographier-et-analyser-la-sécurité-des-dépendances-logicielles-en-continu-avec-des-outils-open-source
 mermaid: true
