@@ -101,6 +101,7 @@ flowchart TB
 ### Inconvénients
 
 - Légèrement plus complexe qu'une solution "tout en un" (et encore)
+- Ne fonctionne que pour les applications que l’on développe (pour les autres et les systèmes ce sera pour la prochaine fois 😊)
 
 ## Démonstration
 
@@ -265,6 +266,9 @@ De plus, je ne peux que vous recommander d'explorer les fonctionnalités de [Tri
 En complément, il est important de rappeler que la sécurité n'est pas que l'affaire des experts du domaine, c'est la coopération entre les différentes équipes qui permettent de garantir un niveau de sécurité élevé, d'où le fait que la culture **DevOps** se dirige vers une culture **DevSecOps**. Dans ce contexte, il est utile de former au sein des équipes de développement des "**security champions**" qui pourront facilement s'occuper de la détection et remédiation des vulnérabilités dans les dépendances.
 
 Enfin, grâce à l'automatisation générée par cette solution l'ingénieur cyber se libère du temps pour coder le malware de son prochain audit red team (quoi, vous faites pas ça vous ? 🤔).
+
+Néanmoins les technologies de génération de SBOM restent limitées et **ne permettent pas à coup sûr de répertorier toutes les dépendances** d’une application ou d’un système. En revanche, cela reste un **indispensable dans une bonne politique de sécurité de la chaine d’approvisionnement logicielle**, comme recommandé par l’OWASP.
+Pour en savoir plus sur les cas d’usage où les SBOM peuvent perdre en efficacité, je vous conseille de lire cet [article](https://zebracatzebra.com/oss/curl-is-seen-everywhere-except-your-sbom-why-is-it-missing-even-though-you-use-it/).
 
 #devsecops #cyber #sca #sbom #devsec #infosec #sdl #ssdl #owasp #owasp_fr #opensource
 
